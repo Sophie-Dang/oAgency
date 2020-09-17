@@ -1,0 +1,35 @@
+.main-single-project {
+    background-image: url('https://source.unsplash.com/user/blakepnw/8c8CpicodQM/1920x1200');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.single-project-bg {
+    padding: 3% 0;
+    margin: 0 18%;
+
+    box-sizing: border-box;
+}
+
+.single-project {
+    background-color: $main-bg-color;
+
+    padding: 2rem;
+
+    display: flex;
+
+    &-text {
+        margin-top: 2rem;
+    }
+
+    &__img {
+        width: 15rem;
+        height: 15rem;
+        object-fit: cover;
+        object-position: center;
+
+        margin-right: 10%;
+    }
+}

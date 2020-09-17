@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    color: $main-text-color;
+    font-size: $default-font-size;
+    background-color: $main-bg-color;
+}
+
+a {
+    color: $alt-color;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+h1 {
+    font-size: $font-size-xxlarge;
+}
+
+h2 {
+    font-size: $default-title-size;
+}
+
+h3 {
+    font-size: $font-size-xlarge;
+}
+
+h4 {
+    font-size: $font-size-large;
+}
+
+h5,h6 {
+    font-size: $default-font-size;
+}
+
+
+
+

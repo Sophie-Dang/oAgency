@@ -1,0 +1,21 @@
+#post-highlight {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    height: 35vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: $img-text-color;
+    font-weight: bold;
+    font-size: $font-size-large;
+    
+}
+
+.post-highlight__title {
+    font-size: $default-title-size;
+}

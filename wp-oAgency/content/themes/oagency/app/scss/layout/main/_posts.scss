@@ -1,0 +1,11 @@
+#posts {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+
+    margin: 3% 18%;
+
+    .posts {
+        column-count: 3;
+    }
+}

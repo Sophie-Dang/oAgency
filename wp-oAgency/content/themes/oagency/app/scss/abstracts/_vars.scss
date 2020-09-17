@@ -1,0 +1,41 @@
+// Breakpoint
+
+// Couleurs
+$main-color : #3A3A3A ;
+$alt-color : #3B85BF;
+$white : #ffffff;
+$light-grey : #D2D2D2;
+$orange : #F2B658;
+$green : #66C066;
+
+// Attribution des couleurs
+$main-bg-color : $white;
+$alt-bg-color : $alt-color;
+$footer-bg-color : $light-grey;
+$footer-alt-bg-color : $main-color;
+
+$main-text-color : $main-color;
+$alt-text-color : $alt-color;
+$img-text-color : $white;
+
+$btn-bg-color-main : $alt-color;
+$btn-bg-color-footer: $white;
+$btn-bg-color-alt-1: $orange;
+$btn-bg-color-alt-2: $green;
+
+// Font-size
+$default-font-size : 1rem;
+$default-title-size : 2rem;
+
+$font-size-xxlarge : 2.5rem;
+$font-size-xlarge : 1.5rem;
+$font-size-large : 1.2rem;
+$font-size-small : 0.8rem;
+
+// Font-family
+$font-family-title : 'Baloo Bhai', cursive;
+$font-family-default : 'Open Sans', sans-serif;
+$font-family-fallback : 'Helvetica', Arial, sans-serif;
+
+// Font-awesome
+$fa-font-path: '~font-awesome/fonts';

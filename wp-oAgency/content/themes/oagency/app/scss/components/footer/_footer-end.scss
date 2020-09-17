@@ -1,0 +1,12 @@
+.footer-buttons {
+    margin-bottom: 1.5rem;
+    &__item {
+        background-color: $btn-bg-color-footer;
+        padding: 0.8rem 1rem;
+        font-weight: bold;
+    }
+}
+
+.footer-copyright {
+    font-weight: bold;
+}

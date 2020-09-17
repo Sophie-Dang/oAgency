@@ -1,0 +1,53 @@
+.main-blog {
+    margin: 1rem 18%;
+    display: flex;
+}
+
+#blog-posts {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.blog-post {
+    border-top: solid 1px lighten($main-text-color, 60);
+
+    padding: 1.5rem 0;
+    margin-right: 2rem;
+
+    display: flex;
+
+    &__img {
+        width: 15rem;
+        height: 15rem;
+
+        margin-right: 8%;
+
+        object-fit: cover;
+        object-position: center;
+    }
+
+    &__text {
+        
+        &__title {
+            font-size: $default-title-size;
+        }
+
+        &__button {
+            color: $white;
+            font-weight: bold;
+
+            background-color: $btn-bg-color-alt-2;
+            border-radius: 4px;
+            
+            padding: 0.5rem 0.8rem;
+
+            &:hover {
+                color: $white;
+            }
+        }
+    }
+}

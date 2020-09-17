@@ -1,0 +1,18 @@
+.footer {
+    #footer-archive {
+        background-color: $footer-bg-color;
+        padding: 1.7rem 18%;
+    
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #footer-end {
+        background-color: $footer-alt-bg-color ;
+        height: 13vh;
+
+        padding: 1.7rem 18%;
+
+        color: $img-text-color;
+    }
+}

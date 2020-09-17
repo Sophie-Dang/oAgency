@@ -1,0 +1,26 @@
+.navbar {
+    padding: 0 18%;
+
+    &-collapse {
+        justify-content: flex-end;
+    }
+
+    .navbar-brand {
+        color: $alt-text-color;
+        font-family: $font-family-title;
+        font-size: $default-title-size;
+    }
+
+    .nav-item {
+        padding-right: 1.1rem;
+
+        &:last-child {
+            padding-right: 0;
+        }
+
+        .nav-link {
+            color: $alt-text-color !important;
+        }
+    }
+}
+

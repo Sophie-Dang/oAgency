@@ -1,0 +1,19 @@
+// Baloo Bai
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
+
+// Open sans
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+// title font-faimily
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-family-title, $font-family-fallback;
+}
+
+body {
+    font-family: $font-family-default, $font-family-fallback;
+}

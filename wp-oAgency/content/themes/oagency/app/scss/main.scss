@@ -1,0 +1,42 @@
+@charset 'UTF-8';
+
+// 1. Abstracts
+@import 
+    'abstracts/vars.scss',
+    'abstracts/mixins';
+
+// 2. Vendors
+@import 
+    '~font-awesome/scss/font-awesome',
+    '~bootstrap/scss/bootstrap';
+
+// 3. Base
+@import 
+    'base/typo',
+    'base/base';
+
+// 4. Layout
+@import
+    'layout/navbar-sidebar/navbar',
+    'layout/navbar-sidebar/sidebar',
+    'layout/main/carousel',
+    'layout/main/posts',
+    'layout/main/post-highlight',
+    'layout/footer/footer';
+
+// 5. Components
+@import
+    'components/main/carousel-caption',
+    'components/main/intro',
+    'components/main/posts-post',
+    'components/main/span',
+    'components/main/post-highlight__item',
+    'components/footer/footer-archive',
+    'components/footer/footer-end';
+
+// 6. Pages
+@import
+    'pages/blog-page',
+    'pages/single-post',
+    'pages/projects',
+    'pages/single-project';
